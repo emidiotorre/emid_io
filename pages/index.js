@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Trail from '../components/Trail.tsx';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -19,15 +20,41 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
+        <Trail open height={300}>
+          <Image
+            src="/1.jpg"
+            width="500"
+            height="500"
+            objectFit="contain"
+          ></Image>
+          <Image
+            src="/2.jpg"
+            width="500"
+            height="500"
+            objectFit="contain"
+          ></Image>
+          <Image
+            src="/3.jpg"
+            width="500"
+            height="500"
+            objectFit="contain"
+          ></Image>
+          <Image
+            src="/4.jpg"
+            width="500"
+            height="500"
+            objectFit="contain"
+          ></Image>
+          <Image
+            src="/5.jpg"
+            width="500"
+            height="500"
+            objectFit="contain"
+          ></Image>
+        </Trail>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
-            <Image src="/1.jpg" width="500" height="500"></Image>
-            <Image src="/2.jpg" width="500" height="500"></Image>
-            <Image src="/3.jpg" width="500" height="500"></Image>
-            <Image src="/4.jpg" width="500" height="500"></Image>
-            <Image src="/5.jpg" width="500" height="500"></Image>
-            <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
