@@ -5,7 +5,7 @@ import HomeSection from '../components/HomeSection.tsx';
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-[#fafafa]">
       <Head>
         <title>Emid.io</title>
       </Head>
@@ -17,13 +17,13 @@ export default function Home() {
             Welcome to <a href="https://nextjs.org">Emid.io</a>
           </h1>
         </HomeSection>
-        <HomeSection backgroundColor="yellow">
+        <HomeSection>
           <span>UEEEEEE</span>
           <h1 className="">
             Welcome to <a href="https://nextjs.org">Emid.io</a>
           </h1>
         </HomeSection>
-        <HomeSection backgroundColor="green">
+        <HomeSection>
           <span>UEEEEEE</span>
           <h1 className="">
             Welcome to <a href="https://nextjs.org">Emid.io</a>
