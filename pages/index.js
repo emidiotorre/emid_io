@@ -2,20 +2,33 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Trail from '../components/Trail.tsx';
 import HomeSection from '../components/HomeSection.tsx';
-import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="">
       <Head>
         <title>Emid.io</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Emid.io</a>
-        </h1>
-        <HomeSection title="ueueeeee">z</HomeSection>
+      <main className="">
+        <HomeSection>
+          <span>UEEEEEE</span>
+          <h1 className="">
+            Welcome to <a href="https://nextjs.org">Emid.io</a>
+          </h1>
+        </HomeSection>
+        <HomeSection backgroundColor="yellow">
+          <span>UEEEEEE</span>
+          <h1 className="">
+            Welcome to <a href="https://nextjs.org">Emid.io</a>
+          </h1>
+        </HomeSection>
+        <HomeSection backgroundColor="green">
+          <span>UEEEEEE</span>
+          <h1 className="">
+            Welcome to <a href="https://nextjs.org">Emid.io</a>
+          </h1>
+        </HomeSection>
         <Trail open height={600}>
           <Image
             src="/1.jpg"
@@ -50,7 +63,7 @@ export default function Home() {
         </Trail>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="">
         <a href="https://next.new" target="_blank" rel="noopener noreferrer">
           Created with&nbsp;<b>next.new</b>&nbsp;⚡️
         </a>

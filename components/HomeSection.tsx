@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-const HomeSection: React.FC<{ title: string }> = ({ title }) => {
-  return <div>{title}</div>;
+const HomeSection: React.FC<{
+  children: ReactNode[];
+  backgroundColor?: string;
+}> = ({ children, backgroundColor = 'red' }) => {
+  return <section style={{ backgroundColor }}>{children}</section>;
 };
+
 export default HomeSection;
