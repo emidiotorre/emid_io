@@ -20,7 +20,7 @@ export default function Home() {
             >
               <span className="text-3xl font-bold ">Hello, I'm Emidio</span>
               <span className="text-3xl font-bold ">I am a developer</span>
-              <span className="text-3xl font-bold ">I am a designer</span>
+              <span className="text-3xl font-bold ">I am a designer.</span>
             </Trail>
             <Image
               className="z-0"
