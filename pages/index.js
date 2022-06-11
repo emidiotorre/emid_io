@@ -22,7 +22,11 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
-            <Image src="/public/img/1.JPG" width="500" height="500"></Image>
+            <Image src="/1.jpg" width="500" height="500"></Image>
+            <Image src="/2.jpg" width="500" height="500"></Image>
+            <Image src="/3.jpg" width="500" height="500"></Image>
+            <Image src="/4.jpg" width="500" height="500"></Image>
+            <Image src="/5.jpg" width="500" height="500"></Image>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
