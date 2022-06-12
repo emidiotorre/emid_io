@@ -9,15 +9,14 @@ export default function Home() {
       <Head>
         <title>Emid.io</title>
       </Head>
-
       <main className="">
         <HomeSection>
           <div className="">
             <Trail className=" relative t-8 l-12" open height={50}>
               <span className="text-3xl font-bold ">Hello, I'm Emidio</span>
-              <span className="text-3xl font-bold ">I am a developer</span>
-              <span className="text-3xl font-bold ">I am a designer.</span>
             </Trail>
+            <h3 className="text-xl">I am a developer</h3>
+            <h3 className="text-xl">I am a designer.</h3>
             <Image
               className="z-0"
               src="/1.jpg"
@@ -43,6 +42,24 @@ export default function Home() {
               <span className="text-3xl font-bold ">Nam, consequuntur.</span>
             </Trail>
           </div>
+        </HomeSection>
+        <HomeSection>
+          <Trail style={{ position: 'fixed' }} open height={50}>
+            <span className="text-3xl font-bold ">Lorem ipsum dolor sit</span>
+            <span className="text-3xl font-bold ">
+              amet consectetur adipisicing elit.
+            </span>
+            <span className="text-3xl font-bold ">Nam, consequuntur.</span>
+          </Trail>
+        </HomeSection>
+        <HomeSection>
+          <Trail style={{ position: 'fixed' }} open height={50}>
+            <span className="text-3xl font-bold ">Lorem ipsum dolor sit</span>
+            <span className="text-3xl font-bold ">
+              amet consectetur adipisicing elit.
+            </span>
+            <span className="text-3xl font-bold ">Nam, consequuntur.</span>
+          </Trail>
         </HomeSection>
         <HomeSection>
           <Trail style={{ position: 'fixed' }} open height={50}>
