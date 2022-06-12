@@ -5,19 +5,15 @@ import HomeSection from '../components/HomeSection.tsx';
 
 export default function Home() {
   return (
-    <div className="bg-[#333] text-[#fafafa]">
+    <div className="bg-[#111] text-[#efefef]">
       <Head>
         <title>Emid.io</title>
       </Head>
 
       <main className="">
         <HomeSection>
-          <div className="flex justify-center align-center">
-            <Trail
-              className="absolute t-8 l-12 z-100 bg-[red]"
-              open
-              height={50}
-            >
+          <div className="">
+            <Trail className=" relative t-8 l-12" open height={50}>
               <span className="text-3xl font-bold ">Hello, I'm Emidio</span>
               <span className="text-3xl font-bold ">I am a developer</span>
               <span className="text-3xl font-bold ">I am a designer.</span>
