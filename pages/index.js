@@ -5,7 +5,7 @@ import HomeSection from '../components/HomeSection.tsx';
 
 export default function Home() {
   return (
-    <div className="bg-[#111] text-[#efefef]">
+    <div className="bg-asparagus-500 text-[#efefef]">
       <Head>
         <title>Emid.io</title>
       </Head>

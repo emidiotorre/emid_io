@@ -7,7 +7,7 @@ const HomeSection: React.FC<{
   return (
     <section
       style={style}
-      className="py-8 px-8  border-0 border-b border-white bg-[#111] text-[#efefef] hover:bg-[#fff] hover:text-[#111]"
+      className="py-8 px-8  border-0 border-b border-white bg-asparagus-900 text-asparagus-50 hover:bg-[#fff] hover:text-asparagus-800"
     >
       {children}
     </section>
