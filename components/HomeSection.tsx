@@ -1,15 +1,22 @@
 import React, { ReactNode } from 'react';
+import Image from 'next/image';
 
 const HomeSection: React.FC<{
   children: ReactNode[];
   style?: any;
-}> = ({ children, style }) => {
+  bg?: string;
+}> = ({ children, style, bg = '' }) => {
   return (
     <section
       style={style}
-      className="py-8 px-8  border-0 border-b border-white bg-asparagus-900 text-asparagus-50 hover:bg-[#fff] hover:text-asparagus-800"
+      className="py-8 px-8 overflow-hidden border-0 border-b border-white hover:bg-[#fff] hover:text-asparagus-800"
     >
-      {children}
+      {bg ? (
+        <div className="fill z-[0]">
+          <Image src={bg} layout="fill" objectFit="cover"></Image>
+        </div>
+      ) : null}
+      <div className="relative z-10">{children}</div>
     </section>
   );
 };
